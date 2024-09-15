@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "data2file",
+    "data2filev2",
+]
