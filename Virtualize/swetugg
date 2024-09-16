@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <link href="//fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="/gbg-2024/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/gbg-2024/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/gbg-2024/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/gbg-2024/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/gbg-2024/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/gbg-2024/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/gbg-2024/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/gbg-2024/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/gbg-2024/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/gbg-2024/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/gbg-2024/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/gbg-2024/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/gbg-2024/favicon-16x16.png">
+    <link rel="manifest" href="/gbg-2024/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/gbg-2024/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+    <meta property="og:image" content="https://swetugg.se/gbg-2024/img/swetugg-rosa-kvadrat.png" />
+    <meta property="og:description" content="Swetugg Göteborg, a conference for dotnet developers 16-17 September 2024" />
+
+
+    <meta property="og:site_name" content="Swetugg Göteborg 2024" />
+    <meta property="fb:app_id" />
+
+    <title>Swetugg - the .NET conference, by .NET developers, for .NET developers</title>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="/gbg-2024/css/swetugg.css?v=dljODisPUggaaxM4-T6Yi595gYr43cKLqLXu4VG6nfA" rel="stylesheet">
+
+    <!--
+    To collect end-user usage analytics about your application,
+    insert the following script into each page you want to track.
+    Place this code immediately before the closing </head> tag,
+    and before any other scripts. Your first data will appear
+    automatically in just a few seconds.
+    -->
+    <script type="text/javascript">
+        var appInsights = window.appInsights || function (config) {
+            function s(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, r = document, f = window, e = "script", o = r.createElement(e), i, u; for (o.src = config.url || "//az416426.vo.msecnd.net/scripts/a/ai.0.js", r.getElementsByTagName(e)[0].parentNode.appendChild(o), t.cookie = r.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) s("track" + i.pop()); return config.disableExceptionTracking || (i = "onerror", s("_" + i), u = f[i], f[i] = function (config, r, f, e, o) { var s = u && u(config, r, f, e, o); return s !== !0 && t["_" + i](config, r, f, e, o), s }), t
+        }({
+            instrumentationKey: ""
+        });
+
+        window.appInsights = appInsights;
+        appInsights.trackPageView();
+    </script>
+<script type="text/javascript">!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+crossOrigin: "anonymous", 
+cfg: { // Application Insights Configuration
+    connectionString: 'InstrumentationKey=4b8b56a5-e0b0-482f-9176-ca6b1b871bf1;IngestionEndpoint=https://swedencentral-0.in.applicationinsights.azure.com/'
+}});</script></head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.3&appId=";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse"
+         role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="/gbg-2024#page-top" data-target="#page-top">
+                    <img src="/gbg-2024/img/40_WhiteBG_GraySwetuggOrigamiButterfly.png" width="50" height="41"
+                         class="pull-left" />
+                    Swetugg
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href=""></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/gbg-2024#sponsor" data-target="#sponsor">Sponsors</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/gbg-2024#speakers" data-target="#speakers">Speakers</a>
+                    </li>
+                    <li class="page-scroll">
+                    <a href="/gbg-2024#schedule" data-target="#schedule">Schedule</a>
+                    </li>
+                    <li class="page-scroll">
+                    <a href="/gbg-2024#tickets" data-target="#tickets">Tickets</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/gbg-2024/codeofconduct">Code of Conduct</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    
+<section class="intro">
+    <div class="intro-body">
+		<div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="brand-heading">Swetugg <small>Göteborg</small></h1>
+                    <p class="intro-text">
+                        by .NET developers, for .NET developers, <br />
+                        16-17 September 2024
+                    </p>
+                    <div class="intro-buttons">
+                            <a href="/gbg-2024/now" class="btn btn-default btn-lg">Live-schedule</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="previousLinks" class="content-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="noSubtitle">This is Swetugg</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1">
+                <p>
+                    Swetugg started from a vision of a .NET conference having great content while still being affordable.
+                </p>
+                <p>
+                    We aim to cover things that are relevant to you as a developer in the .NET realm, no matter if you are just starting your journey or have been writing code since the beginning of unix time.
+                    We strive for a diverse program, which means we work hard on presenting a broad spectrum of speakers and topics for you to choose from. This means the program usually covers topics ranging wide: from human skills to very technical skills.
+                </p>
+                <p>
+                    Swetugg is run by a group of volunteers with different IT backgrounds with a common denominator: A passion for creating good software and better software developers.
+                </p>
+               <p>
+                    <a href="/team" class="btn btn-default btn-lg">Meet the team</a>
+               </p>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-lg-8 col-lg-offset-2">
+                <p>
+                    Looking for information or sessions from previous conferences? All material is archived here:
+                </p>
+                <ul class="list-inline banner-buttons">
+                    <li>
+                        <a href="/swetugg-2015" class="btn btn-default btn-lg">Stockholm 2015</a>
+                    </li>
+                    <li>
+                        <a href="/swetugg-2016" class="btn btn-default btn-lg">Stockholm 2016</a>
+                    </li>
+                    <li>
+                        <a href="/swetugg-2017" class="btn btn-default btn-lg">Stockholm 2017</a>
+                    </li>
+                    <li>
+                        <a href="/swetugg-2018" class="btn btn-default btn-lg">Stockholm 2018</a>
+                    </li>
+                    <li>
+                        <a href="/swetugg-2019" class="btn btn-default btn-lg">Stockholm 2019</a>
+                    </li>
+                    <li>
+                        <a href="/sthlm-2020" class="btn btn-default btn-lg">Stockholm 2020</a>
+                    </li>
+                    <li>
+                        <a href="/gbg-2022" class="btn btn-default btn-lg">Göteborg 2022</a>
+                    </li>
+                    <li>
+                        <a href="/sthlm-2023" class="btn btn-default btn-lg">Stockholm 2023</a>
+                    </li>
+                    <li>
+                        <a href="/gbg-2023" class="btn btn-default btn-lg">Göteborg 2023</a>
+                    </li>
+                    <li>
+                        <a href="/sthlm-2024" class="btn btn-default btn-lg">Stockholm 2024</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row margin-top">
+            <div class="blockquote-container col-lg-4">
+                <blockquote class="blockquote blockquote-small">
+                        <p>&ldquo;Lots of good speakers with interest information from different kind of perspectives&bdquo;</p>
+                    <footer class="blockquote-footer">Attendee Göteborg 2023</footer>
+                </blockquote>
+            </div>
+            <div class="blockquote-container col-lg-4">
+                <blockquote class="blockquote blockquote-small">
+                        <p>&ldquo;Well-organized. Nice atmosphere&bdquo;</p>
+                    <footer class="blockquote-footer">Speaker at Göteborg 2023</footer>
+                </blockquote>
+            </div>
+            <div class="blockquote-container col-lg-4">
+                <blockquote class="blockquote blockquote-small">
+                    <p>&ldquo;Good conference with lots of good and inspiring sessions. Great place too meet and mingle with people in the industry. &bdquo;</p>
+                    <footer class="blockquote-footer">Sponsor of Swetugg Stockholm 2020</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sponsor" class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Sponsors</h1>
+            </div>
+        </div>
+            <div class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>
+                        Your organization can get in touch with hundreds of great software developers by becoming an exhibitor or a digital sponsor. It's an amazing opportunity!
+                    </p>
+                    <p>
+                        <a href="/gbg-2024/sponsorship" class="btn btn-default btn-lg">Read about our sponsorship packages</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="subTitle">Exhibitors</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <ul class="logo-collection">
+
+                            <li>
+                                <a href="https://cabgroup.teamtailor.com/">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/cab-sponsor-thumb-3e80c6ee-0ac5-4567-9608-490e24a6a568" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.hogia.se/">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/hogia-sponsor-thumb-5aef830d-240b-4ac5-baca-0bd5ffd8157a" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://nexergroup.com/">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/nexer-sponsor-thumb-c926f70e-6f80-4340-9267-b9e13868d6d0" />
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="subTitle">Supporters</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <ul class="logo-collection">
+
+                            <li>
+                                <a href="https://www.wcom.se/">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/wcom-sponsor-thumb-873a4658-53fc-4cf4-9c9d-b196005dd0bd" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://solidify.dev/">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/solidify-sponsor-thumb-06d039c1-7cfc-4374-ac63-3a79d7a1a47a" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.co-native.com">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/co-native-sponsor-thumb-e14a78cc-03be-4136-83f7-b5f8cc6d1cc5" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.iths.se">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/ithogskolan-sponsor-thumb-5dcebb1c-7bf4-4c7e-ab7e-299406f5caeb" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.activesolution.se/jobb">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/active-sponsor-thumb-88e0c0fd-80e3-4f63-bf7f-c089a70bdcc4" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://jobs.stratsys.com/departments/development-88ac1183-367c-48ac-8e66-8ad55e4a93d9">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/stratsys-sponsor-thumb-8b1ad012-5b96-44c5-8fb5-bd2bf49a67e2" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.ceriq.se">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/ceriq-sponsor-thumb-7710f5f8-d027-4a86-b4bd-4d85ed413ba2" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" https://www.telerik.com">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/progress-sponsor-thumb-0268adf6-b8b6-403c-9442-84507d165f33" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://factor10.com/join/">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/factor10-sponsor-thumb-05313811-06e4-4a10-ad78-a7f37f58c97f" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://tretton37.com">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/1337-sponsor-thumb-183a23bf-3118-4b01-99bd-359ea8c1bbee" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://careers.voyado.com/">
+                                    <img class="sponsor-image" src="https://swetuggv2.blob.core.windows.net/sponsor-images/voyado-sponsor-thumb-f5fea50d-7a2f-4b4f-bc6c-13e223a28310" />
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</section>
+
+    <section id="speakers" class="content-section text-center">
+        <div class="program-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="noSubtitle">Speakers</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <ul class="photo-collection">
+                                <li>
+                                    <a href="/gbg-2024/speakers/nico-vermeir">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/nico-vermeir-thumb-e92b0f17-2a50-440a-a668-e571d7304306" />
+                                        </div>
+                                        <div>
+                                            Nico Vermeir
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/suzanne-daniels">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/suzanne-daniels-thumb-4199d045-423d-473a-b615-c3307d6df9a6" />
+                                        </div>
+                                        <div>
+                                            Suzanne Daniels
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/magnus-martensson">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/magnus-martensson-thumb-6f86d543-18d1-491d-8059-0c985ab7e452" />
+                                        </div>
+                                        <div>
+                                            Magnus M&#xE5;rtensson
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/stacy-cashmore">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/stacy-cashmore-thumb-eea3935c-1ef7-4e7e-9d96-24c3a90db0a0" />
+                                        </div>
+                                        <div>
+                                            Stacy Cashmore
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/karen-todd">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/karen-todd-thumb-1caca3cd-ef63-47db-ae9c-a30fdacfe90d" />
+                                        </div>
+                                        <div>
+                                            Karen Todd
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/isaac-levin">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/isaac-levin-thumb-8986011a-acee-4aa1-8a55-b0d5a7e4a266" />
+                                        </div>
+                                        <div>
+                                            Isaac Levin
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/mattias-logdberg">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/mattias-logdberg-thumb-95a6672f-b1c0-40fd-91e6-e3df9a49330d" />
+                                        </div>
+                                        <div>
+                                            Mattias L&#xF6;gdberg
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/jakob-ehn">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/jakob-ehn-thumb-035e2aae-5b35-4e38-b4c4-4c80f2bc692d" />
+                                        </div>
+                                        <div>
+                                            Jakob Ehn
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/mike-martin">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/mike-martin-thumb-604e860c-e90c-411a-a677-39e693fcbe83" />
+                                        </div>
+                                        <div>
+                                            Mike Martin
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/jonah-andersson">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/jonah-andersson-thumb-4188057c-4213-42ae-b04a-358101e01850" />
+                                        </div>
+                                        <div>
+                                            Jonah Andersson
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/marten-range">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/marten-range-thumb-c441127d-08dd-4aea-abca-f97f74155500" />
+                                        </div>
+                                        <div>
+                                            M&#xE5;rten R&#xE5;nge
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/martin-bjorkstrom">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/martin-bjorkstrom-thumb-39844ebf-8370-43b0-8075-d89749cb51db" />
+                                        </div>
+                                        <div>
+                                            Martin Bj&#xF6;rkstr&#xF6;m
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/anna-maria-wykes">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/anna-maria-wykes-thumb-7ec25b31-715d-4c9c-8aec-ebfd0aef0a32" />
+                                        </div>
+                                        <div>
+                                            Anna-Maria Wykes
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/jimmy-engstrom">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/jimmy-engstrom-thumb-8517118c-931c-4c65-a636-dfd88a0e899f" />
+                                        </div>
+                                        <div>
+                                            Jimmy Engstr&#xF6;m
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/jeremy-miller">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/jeremy-miller-thumb-ec274bca-f497-4bd3-b15a-f3f18af2cef2" />
+                                        </div>
+                                        <div>
+                                            Jeremy Miller
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/jonas-helin">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/jonas-helin-thumb-f127ee92-c5cd-47c6-88f5-e5ca35aff3ef" />
+                                        </div>
+                                        <div>
+                                            Jonas Helin
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/andreas-wanqvist">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/andreas-wanqvist-thumb-f5439ff8-5ef6-40f8-9dd0-1ebfa194fe80" />
+                                        </div>
+                                        <div>
+                                            Andreas W&#xE4;nqvist
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/safia-abdalla">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/safia-abdalla-thumb-fa9c7841-9781-4fa4-9dcb-2cad758ea1e9" />
+                                        </div>
+                                        <div>
+                                            Safia Abdalla
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/francois-bouteruche">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/francois-bouteruche-thumb-5078732d-9d56-4925-8ddd-5106574e011d" />
+                                        </div>
+                                        <div>
+                                            Fran&#xE7;ois Bouteruche
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/dean-schuster">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/dean-schuster-thumb-2dd0af1b-a39e-4539-b3c5-d375ff6b41bc" />
+                                        </div>
+                                        <div>
+                                            Dean Schuster
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/daniel-raniz-raneland">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/daniel-raniz-raneland-thumb-82498a83-a8d0-436b-abc7-d918c6925f65" />
+                                        </div>
+                                        <div>
+                                            Daniel Raniz Raneland
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/alan-smith">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/alan-smith-thumb-f977fd65-59f1-4570-bfce-58fa04bb94a1" />
+                                        </div>
+                                        <div>
+                                            Alan Smith
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/fredrik-hagfjall">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/fredrik-hagfjall-thumb-47f1da05-742d-4ca9-8819-817aed983ae4" />
+                                        </div>
+                                        <div>
+                                            Fredrik Hagfj&#xE4;ll
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/johnny-hooyberghs">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/johnny-hooyberghs-thumb-abedadd1-97a9-499f-95e0-93752029437e" />
+                                        </div>
+                                        <div>
+                                            Johnny Hooyberghs
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/eric-johansson">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/eric-johansson-thumb-69284cca-9eb3-4b08-b497-02c6cd12227b" />
+                                        </div>
+                                        <div>
+                                            Eric Johansson
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/chris-klug">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/chris-klug-thumb-384d3393-c4aa-4205-a10c-c9b4ce439fc2" />
+                                        </div>
+                                        <div>
+                                            Chris Klug
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/lukas-durovsky">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/lukas-durovsky-thumb-9a44a1d8-cefc-44de-a06b-8d4d9ec6c77b" />
+                                        </div>
+                                        <div>
+                                            Lukas Durovsky
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/henry-been">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/henry-been-thumb-dd7c2f5d-86cd-4717-945b-a242d9f74eb6" />
+                                        </div>
+                                        <div>
+                                            Henry Been
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/louella-creemers">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/louella-creemers-thumb-3590426e-907c-4840-b592-1a2df3f3f208" />
+                                        </div>
+                                        <div>
+                                            Lou&#xEB;lla Creemers
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/paul-stack">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/paul-stack-thumb-4552ea3d-d604-4d19-aebe-74e2afe16338" />
+                                        </div>
+                                        <div>
+                                            Paul Stack
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/alyssa-nicoll">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/alyssa-nicoll-thumb-f47e4bff-efad-4a22-bd97-9cb66f889221" />
+                                        </div>
+                                        <div>
+                                            Alyssa Nicoll
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/krzysztof-cieslak">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/krzysztof-cieslak-thumb-60aaac39-e47f-43e9-abda-d40f67a1eb41" />
+                                        </div>
+                                        <div>
+                                            Krzysztof Cie&#x15B;lak
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/sebastian-nilsson">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/sebastian-nilsson-thumb-12d3c74d-c8c5-4a9f-8f8a-db8f31dcdca0" />
+                                        </div>
+                                        <div>
+                                            Sebastian Nilsson
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/niels-tanis">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/niels-tanis-thumb-c350c0ac-2486-465a-9967-c48bbc1ac746" />
+                                        </div>
+                                        <div>
+                                            Niels Tanis
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/emanuel-palm">
+                                        <div class="photo">
+                                                <span class="tag-ms-mvp"></span>
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/emanuel-palm-thumb-aedec1b4-5d85-417d-9087-0d2c4e787c72" />
+                                        </div>
+                                        <div>
+                                            Emanuel Palm
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gbg-2024/speakers/johan-lindfors">
+                                        <div class="photo">
+                                            <img class="img-circle" src="https://swetuggv2.blob.core.windows.net/speaker-images/johan-lindfors-thumb-c5dc7445-af0d-4d2a-a19a-092a3c5138c9" />
+                                        </div>
+                                        <div>
+                                            Johan Lindfors
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <img class="img-circle" src="/gbg-2024/img/unknown.png" />
+                                    <div>
+
+                                    </div>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section id="schedule" class="content-section">
+    <div class="schedule-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="noSubtitle">Schedule</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                        <h2>Monday, 2024-09-16</h2>
+                        <table class="table schema rwd-table">
+                            <thead>
+                                <tr>
+
+                                    <th style="width: 10%">Time</th>
+
+                                        <th style="width: 30%">Hallen</th>
+                                        <th style="width: 30%">Tesla</th>
+                                        <th style="width: 30%">Pascal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                            <tr>
+                                                <th class="all-rooms" style="display: table-cell; text-align: center; width: 60px;">
+                                                    09:00<br />|<br />10:00
+                                                </th>
+
+                                                <td class="all-rooms" colspan="3">
+                                                    <div>Venue &amp; Registration Open</div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th class="all-rooms" style="display: table-cell; text-align: center; width: 60px;">
+                                                    10:00<br />|<br />10:10
+                                                </th>
+
+                                                <td class="all-rooms" colspan="3">
+                                                    <div>Welcome (all rooms)</div>
+                                                </td>
+                                            </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                10:10<br />|<br />11:00
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/johnny-hooyberghs#what-is-new-in-net-and-c">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            What is new in .NET and C#?
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/johnny-hooyberghs">Johnny Hooyberghs</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/eric-johansson#from-chaos-to-order-using-the-repository-pattern-the-right-way">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            From Chaos to Order - Using the Repository Pattern the Right Way
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/eric-johansson">Eric Johansson</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/niels-tanis#using-webassembly-to-run-extend-and-secure-your-net-application">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Using WebAssembly to run, extend, and secure your .NET application
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/niels-tanis">Niels Tanis</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                11:15<br />|<br />12:05
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/henry-been#new-bicep">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            What&#x27;s new with Azure Bicep?
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/henry-been">Henry Been</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/dean-schuster#building-ux-into-your-development-process">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Building UX into Your Development Process
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/dean-schuster">Dean Schuster</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/safia-abdalla#building-minimal-apis-from-scratch">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Building minimal APIs from scratch
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/safia-abdalla">Safia Abdalla</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                            <tr>
+                                                <th class="all-rooms" style="display: table-cell; text-align: center; width: 60px;">
+                                                    12:05<br />|<br />13:20
+                                                </th>
+
+                                                <td class="all-rooms" colspan="3">
+                                                    <div>Lunch</div>
+                                                </td>
+                                            </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                13:20<br />|<br />14:10
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/anna-maria-wykes#getting-started-with-azure-openai">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Getting started with Azure OpenAI
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/anna-maria-wykes">Anna-Maria Wykes</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/paul-stack#the-rise-and-potential-fall-of-infrastructure-as-code">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            The Rise and (Potential) Fall of Infrastructure as Code
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/paul-stack">Paul Stack</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/magnus-martensson#lessons-learned-from-public-sector-cloud-implementations">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Lessons learned from public sector cloud implementations
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/magnus-martensson">Magnus M&#xE5;rtensson</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                14:25<br />|<br />15:15
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/martin-bjorkstrom#building-cloud-native-applications-with-net-aspire">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Building Cloud-Native Applications with .NET Aspire
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/martin-bjorkstrom">Martin Bj&#xF6;rkstr&#xF6;m</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/alan-smith#gpt-4-vs-starcraft-ii-strategic-decision-making-using-large-language-models">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            GPT-4 vs Starcraft II &#x2013; Strategic Decision Making using Large Language Models
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/alan-smith">Alan Smith</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/suzanne-daniels#platform-engineering-enabling-better-devex">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Platform Engineering: Enabling better DevEx
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/suzanne-daniels">Suzanne Daniels</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                            <tr>
+                                                <th class="all-rooms" style="display: table-cell; text-align: center; width: 60px;">
+                                                    15:15<br />|<br />15:40
+                                                </th>
+
+                                                <td class="all-rooms" colspan="3">
+                                                    <div>Fika</div>
+                                                </td>
+                                            </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                15:40<br />|<br />16:30
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/nico-vermeir#tales-from-the-trenches-building-a-distributed-system-with-aspire-and-dapr">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Tales from the trenches: Building a distributed system with Aspire and Dapr
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/nico-vermeir">Nico Vermeir</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/francois-bouteruche#rest-grpc-signalr-and-graphql-for-net-developers-which-is-right-for-your-use-case">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            REST, gRPC, SignalR and GraphQL for .NET developers. Which is right for your use case?
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/francois-bouteruche">Fran&#xE7;ois Bouteruche</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/lukas-durovsky#beyond-the-basics-advanced-exception-handling-techniques-in-cnet">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Beyond the Basics: Advanced Exception Handling Techniques in C#/.NET
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/lukas-durovsky">Lukas Durovsky</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                16:45<br />|<br />17:35
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/chris-klug#aspnet-core-integration-testing-101">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            ASP.NET Core integration testing 101
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/chris-klug">Chris Klug</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/marten-range#4kib-is-enough">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            4KiB is enough
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/marten-range">M&#xE5;rten R&#xE5;nge</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/daniel-raniz-raneland#the-art-of-automation-an-introduction-to-compile-time-code-generation-in-c">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            The art of automation: An introduction to compile-time code generation in C#
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/daniel-raniz-raneland">Daniel Raniz Raneland</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                            <tr>
+                                                <th class="all-rooms" style="display: table-cell; text-align: center; width: 60px;">
+                                                    17:35<br />|<br />19:30
+                                                </th>
+
+                                                <td class="all-rooms" colspan="3">
+                                                    <div>Attendee Mingle</div>
+                                                </td>
+                                            </tr>
+                            </tbody>
+                        </table>
+                        <h2>Tuesday, 2024-09-17</h2>
+                        <table class="table schema rwd-table">
+                            <thead>
+                                <tr>
+
+                                    <th style="width: 10%">Time</th>
+
+                                        <th style="width: 30%">Hallen</th>
+                                        <th style="width: 30%">Tesla</th>
+                                        <th style="width: 30%">Pascal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                            <tr>
+                                                <th class="all-rooms" style="display: table-cell; text-align: center; width: 60px;">
+                                                    08:00<br />|<br />09:00
+                                                </th>
+
+                                                <td class="all-rooms" colspan="3">
+                                                    <div>Venue Open</div>
+                                                </td>
+                                            </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                09:00<br />|<br />09:50
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/jimmy-engstrom#blazor-in-net-8-mastering-the-new-render-modes-and-building-interactive-web-apps">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Blazor in .NET 8: Mastering the New Render Modes 
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/jimmy-engstrom">Jimmy Engstr&#xF6;m</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/sebastian-nilsson#rag-demystifying-local-knowledge-ai">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            RAG: Demystifying Local Knowledge AI
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/sebastian-nilsson">Sebastian Nilsson</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/isaac-levin#how-can-ai-help-us-be-a-better-net-developer">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            How can AI help us be a better .NET developer?
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/isaac-levin">Isaac Levin</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                10:05<br />|<br />10:55
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/karen-todd#developers-and-testers-the-yin-and-yang-of-software-development">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Developers and Testers: The Yin and Yang of Software Development
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/karen-todd">Karen Todd</a>
+                                                                            <a href="/gbg-2024/speakers/stacy-cashmore">Stacy Cashmore</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/krzysztof-cieslak#bringing-the-power-of-ai-to-your-application">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Bringing the power of AI to your application.
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/krzysztof-cieslak">Krzysztof Cie&#x15B;lak</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/jeremy-miller#resiliency-in-asynchronous-and-distributed-systems">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Resiliency in Asynchronous and Distributed Systems
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/jeremy-miller">Jeremy Miller</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                11:10<br />|<br />12:00
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/sebastian-nilsson#history-csharp">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            The History of C# - From v1 to v12 and Beyond
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/sebastian-nilsson">Sebastian Nilsson</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/jakob-ehn#build-your-own-copilot-with-semantic-kernel-and-azure-openai">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Build your own Copilot with Semantic Kernel and Azure OpenAI
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/jakob-ehn">Jakob Ehn</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/emanuel-palm#from-cloudy-to-clear-demystifying-azure-authentication">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            From Cloudy to Clear: Demystifying Azure Authentication
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/emanuel-palm">Emanuel Palm</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                            <tr>
+                                                <th class="all-rooms" style="display: table-cell; text-align: center; width: 60px;">
+                                                    12:00<br />|<br />13:15
+                                                </th>
+
+                                                <td class="all-rooms" colspan="3">
+                                                    <div>Lunch</div>
+                                                </td>
+                                            </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                13:15<br />|<br />14:05
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/louella-creemers#transforming-net-projects-with-ai-capabilities-using-semantic-kernel">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Transforming .NET Projects with AI Capabilities Using Semantic Kernel
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/louella-creemers">Lou&#xEB;lla Creemers</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/henry-been#the-art-of-getting-done">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            The art of getting &#x1F4A9; done
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/henry-been">Henry Been</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/mattias-logdberg#master-paas-networking">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Master PaaS networking
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/mattias-logdberg">Mattias L&#xF6;gdberg</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                14:20<br />|<br />15:10
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/jonas-helin#github-copilot-whats-new-and-whats-next">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            GitHub Copilot - what&#x27;s new and what&#x27;s next
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/jonas-helin">Jonas Helin</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/mike-martin#failure-is-not-an-option-design-for-failure">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Failure is not an option : design for failure
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/mike-martin">Mike Martin</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/andreas-wanqvist#how-to-rock-your-frontend-apps-with-10-awesome-css-features">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            How to Rock Your Frontend Apps with 10 Awesome CSS Features!
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/andreas-wanqvist">Andreas W&#xE4;nqvist</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <th style="display: table-cell; text-align: center; width: 60px;">
+                                                15:25<br />|<br />16:15
+                                            </th>
+
+                                                    <td data-th="Hallen" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/alyssa-nicoll#why-angular-just-makes-sense-for-net-devs">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Why Angular just makes sense (for .NET devs)
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/alyssa-nicoll">Alyssa Nicoll</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Tesla" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/fredrik-hagfjall#advanced-security-with-github-without-github-advanced-security">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Advanced Security with GitHub without GitHub Advanced Security
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/fredrik-hagfjall">Fredrik Hagfj&#xE4;ll</a>
+                                                                            <a href="/gbg-2024/speakers/johan-lindfors">Johan Lindfors</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Pascal" class="unchanged">
+                                                        <div class="schemacell">
+                                                                    <a href="/gbg-2024/speakers/jonah-andersson#developing-event-driven-and-cloud-native-apps-in-net-using-azure-functions-on-azure-container-apps">
+                                                                        <div class="schemacell-rad1v2">
+                                                                            Developing Event-Driven and Cloud-Native Apps in .NET using Azure Functions on Azure Container Apps
+                                                                        </div>
+                                                                    </a>
+                                                                    <div class="schemacell-rad2v2">
+                                                                            <a href="/gbg-2024/speakers/jonah-andersson">Jonah Andersson</a>
+                                                                    </div>
+                                                        </div>
+                                                    </td>
+                                        </tr>
+                            </tbody>
+                        </table>
+
+                    <p class="schema-disclaimer">
+                        The schedule may be subject to change.
+                        <!--<span class="glyphicon glyphicon-info-sign"></span>
+                        F�r�ndrat sedan schemat trycktes-->
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tickets" class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="noSubtitle">Tickets</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                    <!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
+                    <div class="tt-widget">
+                            <div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/checkout/new-session/id/4268885/chk/97eb/" target="_blank">Click here to buy tickets</a><br /></p></div>
+                            <script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/checkout/new-session/id/4268885/chk/97eb/" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref=""></script>
+                    </div>
+                    <!-- End of Ticket Tailor Widget -->
+                   <p>
+                        <h3>Invoice?</h3>
+                        <p>
+                            Do you wish to buy more than five tickets and/or prefer an invoice?
+                            Use the form above and select the option <strong>pay using invoice (more than 5 tickets)</strong> when completing your order.
+                            For 5 tickets or less we charge an extra fee of 200kr for invoices.
+                        </p>
+                        
+                        <h3>VAT and Swetugg</h3>
+                        <p>
+                            Swetugg is a registered Swedish non-profit organization. We work to spread knowledge in the community and not for profits.
+                            Because of this, we do not charge VAT on any transactions; neither invoices, nor card.
+                            The price you see on the website is without VAT, and no VAT will be added.
+                            Feel free to contact us if you have any other questions regarding this.
+                        </p>
+                    </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="noSubtitle">Contact us</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-8 col-lg-offset-2">
+                <p>
+                    We are happy to answer questions, listen to feedback or suggestions for the future. Maybe you would like to volunteer?
+                    Don't hesitate to contact us at <a href="/cdn-cgi/l/email-protection#2e474048416e5d594b5a5b4949005d4b"><span class="__cf_email__" data-cfemail="4920272f26093a3e2c3d3c2e2e673a2c">[email&#160;protected]</span></a>
+                </p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-8 col-lg-offset-2">
+                <ul class="list-inline banner-buttons">
+                    <li>
+                        <a href="https://twitter.com/swetugg" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/swetugg" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <section id="mainFooter" class="footer-section">
+        <div class="container" id="footer">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Location</h3>
+                    <p>
+                        <strong style="font-size: 24px;">Lindholmen Conference Centre</strong><br />
+                        Lindholmspiren 5<br />
+                        417 56 Göteborg
+                    </p>
+                </div>
+                <div class="col-sm-8">
+                    <h4>Bus stop</h4>
+                    <p>Lindholmen</p>
+                    <h4>Coordinates</h4>
+                    <p>
+                        <a href="https://goo.gl/maps/1TAjEwXkM5mc51h5A" target="_blank">57.707143, 11.940031</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+
+
+    <section id="footerRights" class="footer-rights-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <a href="https://www.meetup.com/Swenug-Goteborg/" target="blank">
+                        <img src="/gbg-2024/img/swenug.png" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="socialNetwork pull-right">
+                        <li>
+                            <a title="" class="tips" href="https://www.facebook.com/Swetugg"
+                               data-original-title="follow us on Facebook">
+                                <i class="icon-facebook-1 iconRounded"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a title="" class="tips" href="https://twitter.com/swetugg" target="_blank"
+                               data-original-title="follow us on Twitter">
+                                <i class="icon-twitter-bird iconRounded"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a title="" class="tips" href="#" data-original-title="follow us on Google+">
+                                <i class="icon-gplus-1 iconRounded"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps - TODO: Get our own API key -->
+
+    <script src="/gbg-2024/js/swetugg.js?v=1"></script>
+
+    <!-- Google Universal Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-51956274-1', 'swetugg.se');
+        ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+
+    </script>
+
+    
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+</body>
+
+</html>
